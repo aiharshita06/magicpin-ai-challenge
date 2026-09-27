@@ -37,7 +37,32 @@ context_versions = {
     "customer": {},
     "trigger": {}
 }
+def preload_contexts():
+    for scope, folder, key in [
+        ("category", "categories", "slug"),
+        ("merchant", "merchants", "merchant_id"),
+        ("customer", "customers", "customer_id"),
+        ("trigger", "triggers", "id"),
+    ]:
+        directory = DATASET_DIR / folder
+        if not directory.exists():
+            continue
 
+        for path in directory.glob("*.json"):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+
+                context_id = data.get(key)
+                if context_id:
+                    contexts[scope][context_id] = data
+                    context_versions[scope][context_id] = 1
+            except Exception as e:
+                print(f"Warning: failed to load {path}: {e}")
+
+    print("Preloaded contexts:", {
+        scope: len(values) for scope, values in contexts.items()
+    })
 conversations = {}
 
 metadata = {
@@ -742,6 +767,7 @@ class Handler(BaseHTTPRequestHandler):
 # ------------------------------------------------------------
 
 def main():
+    preload_contexts()
 
     port = int(__import__("os").environ.get("PORT", "8080"))
 
