@@ -1,0 +1,242 @@
+[
+  {
+    "test_id": "T01",
+    "trigger_id": "trg_013_corporate_thali_planning",
+    "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+    "category_slug": "restaurants",
+    "trigger_kind": "active_planning_intent",
+    "message": "Mylari South Indian Cafe: you have an active planning opportunity around your current business plan. Review your restaurants & cafes offering and prepare relevant content or offers."
+  },
+  {
+    "test_id": "T02",
+    "trigger_id": "trg_016_kids_yoga_program_drafting",
+    "merchant_id": "m_008_zenyoga_gym_chennai",
+    "category_slug": "gyms",
+    "trigger_kind": "active_planning_intent",
+    "message": "Zen Yoga Studio: you have an active planning opportunity around your current business plan. Review your gyms & fitness offering and prepare relevant content or offers."
+  },
+  {
+    "test_id": "T03",
+    "trigger_id": "trg_076_appointment_tomorrow_m_019_karim_salon_lu",
+    "merchant_id": "m_019_karim_salon_lucknow",
+    "category_slug": "salons",
+    "trigger_kind": "appointment_tomorrow",
+    "message": "Karim's Salon: you have a customer appointment scheduled for tomorrow. Please review the appointment details and ensure the team is prepared."
+  },
+  {
+    "test_id": "T04",
+    "trigger_id": "trg_077_appointment_tomorrow_m_020_renu_salon_luc",
+    "merchant_id": "m_020_renu_salon_lucknow",
+    "category_slug": "salons",
+    "trigger_kind": "appointment_tomorrow",
+    "message": "Beauty Lounge by Renu: you have a customer appointment scheduled for tomorrow. Please review the appointment details and ensure the team is prepared."
+  },
+  {
+    "test_id": "T05",
+    "trigger_id": "trg_020_summer_demand_shift",
+    "merchant_id": "m_009_apollo_pharmacy_jaipur",
+    "category_slug": "pharmacies",
+    "trigger_kind": "category_seasonal",
+    "message": "Apollo Health Plus Pharmacy: summer_2026 may create additional demand for your pharmacies & medical stores business. Consider preparing relevant offers and listing content."
+  },
+  {
+    "test_id": "T06",
+    "trigger_id": "trg_022_cde_webinar_dentists",
+    "merchant_id": "m_001_drmeera_dentist_delhi",
+    "category_slug": "dentists",
+    "trigger_kind": "cde_opportunity",
+    "message": "Dr. Meera's Dental Clinic: a professional learning opportunity relevant to your dentists business is available. Review the opportunity if it matches your interests."
+  },
+  {
+    "test_id": "T07",
+    "trigger_id": "trg_019_chronic_refill_grandfather",
+    "merchant_id": "m_009_apollo_pharmacy_jaipur",
+    "category_slug": "pharmacies",
+    "trigger_kind": "chronic_refill_due",
+    "message": "Apollo Health Plus Pharmacy: a chronic refill reminder is due. Please review the customer or refill details and follow the appropriate reminder process."
+  },
+  {
+    "test_id": "T08",
+    "trigger_id": "trg_081_chronic_refill_due_m_011_dr_sameer_dent",
+    "merchant_id": "m_011_dr_sameer_dentist_bangalore",
+    "category_slug": "dentists",
+    "trigger_kind": "chronic_refill_due",
+    "message": "Bright Smile Dental: a chronic refill reminder is due. Please review the customer or refill details and follow the appropriate reminder process."
+  },
+  {
+    "test_id": "T09",
+    "trigger_id": "trg_023_competitor_opened_dentist",
+    "merchant_id": "m_001_drmeera_dentist_delhi",
+    "category_slug": "dentists",
+    "trigger_kind": "competitor_opened",
+    "message": "Dr. Meera's Dental Clinic: a new competitor signal has appeared in your dentists market. Consider reviewing your listing, offers and customer engagement."
+  },
+  {
+    "test_id": "T10",
+    "trigger_id": "trg_056_competitor_opened_m_006_southindiancaf",
+    "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+    "category_slug": "restaurants",
+    "trigger_kind": "competitor_opened",
+    "message": "Mylari South Indian Cafe: a new competitor signal has appeared in your restaurants & cafes market. Consider reviewing your listing, offers and customer engagement."
+  },
+  {
+    "test_id": "T11",
+    "trigger_id": "trg_008_curious_ask_studio11",
+    "merchant_id": "m_003_studio11_salon_hyderabad",
+    "category_slug": "salons",
+    "trigger_kind": "curious_ask_due",
+    "message": "Studio11 Family Salon: there is a relevant update or opportunity worth reviewing for your salons & beauty business. Take a look if it matches your current priorities."
+  },
+  {
+    "test_id": "T12",
+    "trigger_id": "trg_096_curious_ask_due_m_006_southindiancaf",
+    "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+    "category_slug": "restaurants",
+    "trigger_kind": "curious_ask_due",
+    "message": "Mylari South Indian Cafe: there is a relevant update or opportunity worth reviewing for your restaurants & cafes business. Take a look if it matches your current priorities."
+  },
+  {
+    "test_id": "T13",
+    "trigger_id": "trg_015_winback_rashmi",
+    "merchant_id": "m_007_powerhouse_gym_bangalore",
+    "category_slug": "gyms",
+    "trigger_kind": "customer_lapsed_hard",
+    "message": "PowerHouse Fitness: a previously active customer has become significantly lapsed. Consider a targeted win-back message or relevant re-engagement offer."
+  },
+  {
+    "test_id": "T14",
+    "trigger_id": "trg_071_customer_lapsed_soft_m_014_dr_asha_dentis",
+    "merchant_id": "m_014_dr_asha_dentist_chandigarh",
+    "category_slug": "dentists",
+    "trigger_kind": "customer_lapsed_soft",
+    "message": "Asha Dental Care: a customer re-engagement opportunity has been identified. Consider a relevant offer or personalised follow-up."
+  },
+  {
+    "test_id": "T15",
+    "trigger_id": "trg_072_customer_lapsed_soft_m_049_komal_pharmaci",
+    "merchant_id": "m_049_komal_pharmacie_lucknow",
+    "category_slug": "pharmacies",
+    "trigger_kind": "customer_lapsed_soft",
+    "message": "Daily Care Medicos: a customer re-engagement opportunity has been identified. Consider a relevant offer or personalised follow-up."
+  },
+  {
+    "test_id": "T16",
+    "trigger_id": "trg_025_dormancy_glamour",
+    "merchant_id": "m_004_glamour_salon_pune",
+    "category_slug": "salons",
+    "trigger_kind": "dormant_with_vera",
+    "message": "Glamour Lounge Spa & Salon: your business has shown a period of low recent activity. Consider refreshing your listing, offers and customer engagement."
+  },
+  {
+    "test_id": "T17",
+    "trigger_id": "trg_046_dormant_with_vera_m_029_anand_restaura",
+    "merchant_id": "m_029_anand_restaurant_chandigarh",
+    "category_slug": "restaurants",
+    "trigger_kind": "dormant_with_vera",
+    "message": "Chai Point Cafe: your business has shown a period of low recent activity. Consider refreshing your listing, offers and customer engagement."
+  },
+  {
+    "test_id": "T18",
+    "trigger_id": "trg_006_festival_diwali",
+    "merchant_id": "m_003_studio11_salon_hyderabad",
+    "category_slug": "salons",
+    "trigger_kind": "festival_upcoming",
+    "message": "Studio11 Family Salon: a festival opportunity is approaching. Consider preparing your salons & beauty offers and listing content."
+  },
+  {
+    "test_id": "T19",
+    "trigger_id": "trg_061_festival_upcoming_m_037_pooja_gym_bang",
+    "merchant_id": "m_037_pooja_gym_bangalore",
+    "category_slug": "gyms",
+    "trigger_kind": "festival_upcoming",
+    "message": "Bend & Burn: a festival opportunity is approaching. Consider preparing your gyms & fitness offers and listing content."
+  },
+  {
+    "test_id": "T20",
+    "trigger_id": "trg_021_unverified_gbp_sunrise",
+    "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+    "category_slug": "pharmacies",
+    "trigger_kind": "gbp_unverified",
+    "message": "Sunrise Medicos: your business profile appears to be unverified. Review the profile status and complete the required verification steps."
+  },
+  {
+    "test_id": "T21",
+    "trigger_id": "trg_010_ipl_match_delhi",
+    "merchant_id": "m_005_pizzajunction_restaurant_delhi",
+    "category_slug": "restaurants",
+    "trigger_kind": "ipl_match_today",
+    "message": "SK Pizza Junction: an IPL match is taking place today and may create a timely opportunity for your restaurants & cafes business. Consider relevant offers or promotional content."
+  },
+  {
+    "test_id": "T22",
+    "trigger_id": "trg_012_milestone_mylari",
+    "merchant_id": "m_006_southindiancafe_restaurant_bangalore",
+    "category_slug": "restaurants",
+    "trigger_kind": "milestone_reached",
+    "message": "Mylari South Indian Cafe: you've reached an important business milestone. Keep building on the customer activity that helped achieve it."
+  },
+  {
+    "test_id": "T23",
+    "trigger_id": "trg_041_milestone_reached_m_032_mukesh_restaur",
+    "merchant_id": "m_032_mukesh_restaurant_pune",
+    "category_slug": "restaurants",
+    "trigger_kind": "milestone_reached",
+    "message": "Pizza Spot: you've reached an important business milestone. Keep building on the customer activity that helped achieve it."
+  },
+  {
+    "test_id": "T24",
+    "trigger_id": "trg_004_perf_dip_bharat",
+    "merchant_id": "m_002_bharat_dentist_mumbai",
+    "category_slug": "dentists",
+    "trigger_kind": "perf_dip",
+    "message": "Bharat Dental Care: recent performance shows a potential dip. Views changed by None% and calls changed by None%. Consider reviewing listing visibility and recent activity."
+  },
+  {
+    "test_id": "T25",
+    "trigger_id": "trg_031_perf_dip_m_023_sushma_salon_p",
+    "merchant_id": "m_023_sushma_salon_pune",
+    "category_slug": "salons",
+    "trigger_kind": "perf_dip",
+    "message": "The Beauty Bar: recent performance shows a potential dip. Views changed by None% and calls changed by None%. Consider reviewing listing visibility and recent activity."
+  },
+  {
+    "test_id": "T26",
+    "trigger_id": "trg_024_perf_spike_zen",
+    "merchant_id": "m_008_zenyoga_gym_chennai",
+    "category_slug": "gyms",
+    "trigger_kind": "perf_spike",
+    "message": "Zen Yoga Studio: recent performance is showing positive momentum. Views changed by None% and calls changed by None%. Consider building on the activity driving engagement."
+  },
+  {
+    "test_id": "T27",
+    "trigger_id": "trg_036_perf_spike_m_010_sunrisepharm_p",
+    "merchant_id": "m_010_sunrisepharm_pharmacy_lucknow",
+    "category_slug": "pharmacies",
+    "trigger_kind": "perf_spike",
+    "message": "Sunrise Medicos: recent performance is showing positive momentum. Views changed by None% and calls changed by None%. Consider building on the activity driving engagement."
+  },
+  {
+    "test_id": "T28",
+    "trigger_id": "trg_003_recall_due_priya",
+    "merchant_id": "m_001_drmeera_dentist_delhi",
+    "category_slug": "dentists",
+    "trigger_kind": "recall_due",
+    "message": "Dr. Meera's Dental Clinic: a customer recall is due around 2026-11-12. Please review the available appointment options and follow the appropriate reminder process."
+  },
+  {
+    "test_id": "T29",
+    "trigger_id": "trg_066_recall_due_m_008_zenyoga_gym_ch",
+    "merchant_id": "m_008_zenyoga_gym_chennai",
+    "category_slug": "gyms",
+    "trigger_kind": "recall_due",
+    "message": "Zen Yoga Studio: a customer recall is due around the scheduled date. Please review the available appointment options and follow the appropriate reminder process."
+  },
+  {
+    "test_id": "T30",
+    "trigger_id": "trg_002_compliance_dci_radiograph",
+    "merchant_id": "m_001_drmeera_dentist_delhi",
+    "category_slug": "dentists",
+    "trigger_kind": "regulation_change",
+    "message": "Dr. Meera's Dental Clinic: a regulatory change relevant to your dentists business has been identified. Please review the applicable requirements and effective date."
+  }
+]
